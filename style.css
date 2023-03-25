@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+section img {
+    width: 10%; /* you can use % */
+    height: auto;
+    filter: grayscale(100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navMenu {
+    position: absolute;
+    top: 5%;
+    left: 83%; 
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+    color:  #070606;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline;
+    width: 100px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.navMenu a:hover {
+    color: #fddb3a;
+}
+
+/* .navMenu .dot {
+    width: 6px;
+    height: 6px;
+    background: #fddb3a;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(35px);
+    transform: translateX(35px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+    -webkit-transform: translateX(35px);
+    transform: translateX(35px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateX(115px);
+    transform: translateX(115px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+  
+.navMenu a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(230px);
+    transform: translateX(205px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1; 
+}
+*/
+
+.title {
+    font-family: roboto;
+    text-align: center;
+    vertical-align: middle;
+
+}
